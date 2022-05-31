@@ -1,0 +1,329 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header{
+    display: inline;
+    
+}
+.navbar{
+    width: 90vw;
+    margin-top: 60px;
+    justify-content: space-around;
+    font-size: 90%;
+    font-weight:500;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.div-6{
+    background-color: #a9f053;
+    
+    margin-top:-30vh;
+    margin-left: -12vw;
+    height: 45vw;
+    width: 29vw;
+    z-index: -100;
+   
+}
+.profile{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    top:20vh;
+    right: 10vw;
+}
+.rachel-green{
+    margin-left: 5vw;
+    margin-top: -35vh;
+    display: flex;
+    flex-direction: column;
+}
+.rachel-green h1{
+    margin: 10px;
+    font-size: 3.5rem;
+    font-weight: 900;
+
+}
+.rachel-green p{
+    width: 28vw;
+    height: 40vh;
+    font-weight: 500;
+    padding: 5px;
+}
+.main-body{
+    display: flex;
+    flex-direction: column;
+}
+.main-body img{
+    width: 300px;
+    height: 300px;
+    
+}
+.btn{
+    width: 7vw;
+    height: 3vw;
+    background-color: #7fd319;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: -7vw;
+    margin-left: 5vw;
+    
+}
+.btn p{
+    color: white;
+}
+.main-hustle{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-heading{
+    background-image: url(./images/bg.png);
+    line-height: 1;
+    height: 20vw;
+    width: 20vw;
+    margin: 25px;
+    font-size: 3rem;
+    margin-left: -10vw;
+    
+}
+.main-heading p{
+    font-weight: 700;
+
+}
+.descr{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35vw;
+  height: 20vh;
+  margin-top: 14vh ;
+  /* margin-left: 4v; */
+}
+.first{
+    margin-bottom: 2vw;
+}
+.descr b{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.descr span{
+    font-size:1.1rem;
+}
+.my-work{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20vh;
+    height: 15vh;
+   
+}
+.my-work h1{
+    margin-top: -6vh;
+    font-size:2.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.my-work span{
+    margin-left: 10vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.my-work p{
+    font-size: 1.25rem;
+    width:60vw;
+    margin-left: 15vw;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.projects-list{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 20vw;
+    margin-left: 12vw;
+    margin-top:7vw;
+}
+.projects-list img{
+    z-index:-400;
+    position: relative;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 5px;
+    
+
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-bottom: 1vw;
+    
+}
+.list p{
+    font-size: 90%;
+    width:15vw;
+    text-align: center;
+    font-weight: 700;
+}
+.list span{
+    margin:10px 0px 0px;
+    color: #6fbd0f;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.list h3{
+    margin: 5px 0 10px;
+    font-family: sans-serif;
+}
+.green-box{
+    width:1.2vw;
+    height:2vw;
+    background-color: #7fd319;
+    margin-bottom: -20px;
+    margin-left: -8vw;
+    z-index:100;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.p-grid{
+    margin-top:8vw;
+    margin-left: 5vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-column-gap: 3vw;
+    height: 30vw;
+    width: 50vw;
+}
+.info{
+    font-weight: 600;
+    font-size: 95%; 
+    
+}
+.green-card{
+    width:22vw;
+    height:22vw;
+    background-color:#8ae11f;
+    margin-left: 20vw;
+    margin-top: 8vw;
+    font-size: 4rem;
+    color: white;
+    font-weight: 1000;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    text-align:left;
+    font-family: 'Roboto Slab', serif;
+}
+.line{
+    width: 1.5vw;
+    height: 2.5px;
+    background-color: #6ab90a;
+}
+.hobby{
+    margin-left: 7vw;
+    display: flex;
+    flex-direction: row;
+}
+.hobby h1{
+    font-size: 5rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    color: #71c807;
+    margin-left: 3vw;
+    line-height:1.0;
+    margin-bottom: 1.5vw;
+}
+.hobby p{
+    width: 30vw;
+}
+
+.album{
+    display: grid;
+    width: 40vw;
+    height: 30vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    row-gap: 0.1em;
+    column-gap: 0.2em;
+    margin-left:18%;
+    
+}
+.guitar{
+    grid-row: 1/3;
+    grid-column: 1/2;
+    /* width:25vw;
+    height: 20vw; */
+    margin-top:11vw;
+}
+.head{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    height: 5vw;
+}
+.friends{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.bad{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    height: 20vw;
+    width:19.5vw;
+}
+.reading{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.painting{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    margin-top: 10px;
+}
+.head img{
+    width:25vw;
+    height: 25vw;
+}
+.heading{
+    margin-top:20%;
+}
+.last-div{
+    margin-top: 40vw;
+    height: 15vw;
+    /* background-color: #6ab90a; */
+    display: flex;
+    flex-direction: row;
+}
+.last-div img{
+    width:20px;
+    height: 20px;
+}
+
+.contact{
+    background-color: #62ae05;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    font-size:2em;
+    font-weight: 700;
+    color: white;
+}
+
+.contact p{
+    font-size: 50%;
+}
