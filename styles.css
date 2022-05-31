@@ -310,7 +310,9 @@
     width:20px;
     height: 20px;
 }
-
+.blank{
+    width:60vw;
+}
 .contact{
     background-color: #62ae05;
     width: 30vw;
@@ -326,4 +328,7 @@
 
 .contact p{
     font-size: 50%;
+}
+.rights{
+    margin-top: 10%;
 }
